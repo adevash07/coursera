@@ -1,0 +1,64 @@
+body {
+	font-size: 16px;
+	color: black;
+	background-color:#E0F7FA;
+}
+#header-nav {
+	background-color: white;
+	border:10px 0px 10px 0px;
+	
+}
+.navbar-toggler-icon{
+	background-color:#B3E5FC;
+	width: 2em;
+  height: 1.5em;
+}
+#menulist{
+	text-align: center;
+}
+h1 {
+margin-bottom:	15px;
+}
+	#exp, #exp1, #exp2{
+	border: 1px solid black;
+	margin-right:auto;
+	margin-left: auto;
+	font-family: Helvetica;
+	margin-bottom: 15px;
+	padding:0px;
+
+}
+
+ #food1, #food2, #food3 {
+		margin-bottom: 15px;
+        float: right;
+		border: 1px solid black;
+		width: 150px;
+		text-align: center;
+}
+#food1{
+		background-color: yellow;
+}
+#food2{
+	background-color: red;
+}
+#food3{
+background-color: white;
+}
+#note { 
+	clear: right;
+	text-align: justify;
+	margin: 20px;
+	padding: 15px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	#exp{
+		height:450px;
+		overflow: auto;
+	}
+	#exp1{
+		height: 450px;
+		overflow: auto;
+	}
+}
